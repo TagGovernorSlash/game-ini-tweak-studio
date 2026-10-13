@@ -1,0 +1,12 @@
+{
+  "slug": "ue4-shooter-lowlatency",
+  "engine": "unreal4",
+  "match": ["Engine.ini", "GameUserSettings.ini"],
+  "description": "Low-latency UE4 shooter tweaks: disable frame-thread lag, force fullscreen, kill VSync.",
+  "tweaks": [
+    {"section": "SystemSettings", "key": "r.OneFrameThreadLag", "value": "0"},
+    {"section": "SystemSettings", "key": "r.VSync", "value": "0"},
+    {"section": "/Script/Engine.GameUserSettings", "key": "bUseVSync", "value": "False"},
+    {"section": "/Script/Engine.GameUserSettings", "key": "FullscreenMode", "value": "0"}
+  ]
+}
