@@ -1,0 +1,1 @@
+"""Processors: pure functions over Job text."""
