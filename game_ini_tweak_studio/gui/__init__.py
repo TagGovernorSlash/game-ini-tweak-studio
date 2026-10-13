@@ -1,0 +1,1 @@
+"""GUI layer (PySide6). Never touches the filesystem directly."""
