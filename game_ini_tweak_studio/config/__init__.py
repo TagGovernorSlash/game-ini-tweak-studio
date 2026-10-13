@@ -1,0 +1,1 @@
+"""Config layer: settings, engine presets, path resolution."""
