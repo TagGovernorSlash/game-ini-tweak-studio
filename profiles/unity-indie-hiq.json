@@ -1,0 +1,10 @@
+{
+  "slug": "unity-indie-hiq",
+  "engine": "unity",
+  "match": ["boot.config", "settings.ini"],
+  "description": "Unity indie titles: bump shadow distance, disable soft particles.",
+  "tweaks": [
+    {"section": "Graphics", "key": "shadowDistance", "value": "120"},
+    {"section": "Graphics", "key": "softParticles", "value": "0"}
+  ]
+}
